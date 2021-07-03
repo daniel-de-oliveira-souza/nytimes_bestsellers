@@ -27,9 +27,23 @@ If your platform is not supported, you can download Docker Compose using pip:
 pip install docker-compose
 
 ### 2- Access the folder airflow-docker and do:
-docker-compose up airflow-init
+docker-compose up
+
+Once all pods are healthy (check below), open a new tab in your browser and type the url localhost:8080/
+
+<img width="1375" alt="Screen Shot 2021-07-03 at 4 07 17 PM" src="https://user-images.githubusercontent.com/60671004/124365846-bfcad900-dc18-11eb-9a14-3eb3cbdfe79b.png">
+
+
+### Log in to the airflow UI
 
 <img width="906" alt="Screen Shot 2021-07-03 at 3 49 30 PM" src="https://user-images.githubusercontent.com/60671004/124365465-4205ce00-dc16-11eb-92d8-d9b24d19bca0.png">
+
+user: airflow
+password: airflow
+
+### DAG Tree View
+
+<img width="143" alt="Screen Shot 2021-07-03 at 4 03 54 PM" src="https://user-images.githubusercontent.com/60671004/124365792-459a5480-dc18-11eb-89f2-a446dba0b8c1.png">
 
 
 ## Add-Ons
