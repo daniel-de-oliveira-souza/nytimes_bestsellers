@@ -14,7 +14,7 @@ Creating a airflow tag that will programmatically fetch the latest list of Combi
 
 An admin can manually trigger the dag so additional recipients can receive the latest list by passing their email addresses through airflow dag configuration json.
 
-## Future developments
+## Future Developments
 
 Send the results to some email recipients as attachments, so we can take advantage of other file formats, such as .csv and image files.
 
