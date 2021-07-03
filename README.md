@@ -29,6 +29,8 @@ pip install docker-compose
 ### 2- Access the folder airflow-docker and do:
 docker-compose up airflow-init
 
+<img width="906" alt="Screen Shot 2021-07-03 at 3 49 30 PM" src="https://user-images.githubusercontent.com/60671004/124365465-4205ce00-dc16-11eb-92d8-d9b24d19bca0.png">
+
 
 ## Add-Ons
 
