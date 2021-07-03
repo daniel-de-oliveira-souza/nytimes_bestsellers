@@ -10,6 +10,26 @@ The New York Times Best Sellers list is one of the most important lists in the b
 
 Creating a airflow tag that will programmatically fetch the latest list of Combined Print & E-Book Fiction and Combined Print & E-Book Nonfiction through NYTimes Books API daily and send the results to some email recipients once every week or whenever the list gets updated.
 
+## Instructions
+
+### 1- Make sure you have Docker Compose installed in your machine.
+
+#### Where to get Docker Compose
+Windows and macOS
+Docker Compose is included in Docker Desktop for Windows and macOS.
+
+Linux
+You can download Docker Compose binaries from the release page on this repository.
+
+Using pip
+If your platform is not supported, you can download Docker Compose using pip:
+
+pip install docker-compose
+
+### 2- Access the folder airflow-docker and do:
+docker-compose up airflow-init
+
+
 ## Add-Ons
 
 An admin can manually trigger the dag so additional recipients can receive the latest list by passing their email addresses through airflow dag configuration json.
